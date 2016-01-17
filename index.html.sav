@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Executive Coach Patricia M Keegan</title>
+
+    <!-- Meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Fresh Bootstrap theme for your next projects, Influence is fully responsive, well documented, built with premium plugins.">
+
+    <!-- 'theme-color' will set background color in Chrome browser on Android 5.0+ -->
+    <meta name="theme-color" content="#263238">
+
+    <!-- Favicon - this tools will help you generate favicons for all platform - http://realfavicongenerator.net/ -->
+    <link rel="shortcut icon" href="assets/img/favicons/favicon.png">
+
+    <!-- MAIN STYLES -->
+    <!-- If you want change theme, you need to remove old one and new one, how for Bootstrap, so for custom theme -->
+    <link href="assets/css/bootstrap/themes/deepOrange-b.css" rel="stylesheet" id="bootstrapTheme">
+    <!--<link href="assets/css/main-theme/themes/red-b.css" rel="stylesheet" id="mainTheme">-->
+    <link href="assets/css/main-theme/themes/deepOrange-m.css" rel="stylesheet" id="mainTheme">
+    <!--<link href="assets/css/main-theme/themes/red-m.css" rel="stylesheet" id="mainTheme">-->
+
+    <!-- FONTS -->
+    <link href="http://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+
+    <!-- PLUGINS -->
+    <link rel="stylesheet" href="assets/css/plugins/animations.css">
+    <link rel="stylesheet" href="assets/css/plugins/animate.css">
+    <link rel="stylesheet" href="assets/css/plugins/slider-revolution.css">
+    <link rel="stylesheet" href="assets/css/plugins/cubeportfolio.css">
+    <link rel="stylesheet" href="assets/css/plugins/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/plugins/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/plugins/devicons.css">
+
+
+<style>
+.wrap-width {
+    background: url('assets/img/patterns/footer_lodyas/footer_lodyas.png') //set your own path, base on location your image
+    background-repeat: repeat;
+    background-attachment: fixed !important;
+}
+</style>
+</head>
+
+<body class="wrap-width" style="background: url(file:///Users/jaxle/Sites/influence/HTML/assets/img/patterns/footer_lodyas/footer_lodyas.png);">
+
+    <!-- PRELOADER -->
+    <div class="preloader-wrap clearfix" id="preloader">
+        <div class="hv-center">
+            <div class="spinner"></div>
+        </div>
+    </div>
+    <!-- /PRELOADER -->
+
+    <!--===============================
+                MAIN WRAP  
+     ===============================-->
+    <div id="page-wrap">
+
+        <!-- NAVIGATION -->
+        <div class="navbar navbar-inverse navbar-fixed-top navbar-height" role="navigation" id="navbarSettings">
+            <div class="container">
+                <div class="navbar-header">
+                    <!-- Mobile Navigation -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!--/END Mobile Navigation -->
+                    <!-- Logo/Name -->
+                    <a class="scroll navbar-brand scroll" href="#sTop">Patricia M Keegan</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right" id="nav">
+                        <li class="dropdown active">
+                            <a href="#sTop">Home</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#s2">About Us</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#sNews">Our Work</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#s5">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="navbarSpaceBottom"></div>
+        <!-- /NAVIGATION -->
+
+        <!-- SLIDESHOW -->
+        <span class="breakPoint" id="sTop"></span>
+        <div class="tp-banner-container">
+            <div class="tp-banner">
+                <ul>
+                    <!-- SLIDE 1 -->
+                    <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="assets/img/boston.jpg" data-saveperformance="off" data-title="Welcome to Influence">
+                        <!-- MAIN IMAGE -->
+                        <img src="assets/img/boston.jpg" alt="Welcome to Influence" data-bgposition="center bottom" data-bgfit="cover" data-bgrepeat="no-repeat">
+                        <!-- LAYERS -->
+                        <div class="tp-caption s-title-v2 customin stt  tp-resizeme" data-x="center" data-y="150" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="1000" data-start="1100" data-easing="Power4.easeOut" data-splitin="chars" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endeasing="Power4.easeIn" data-endspeed="500" style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;">Patricia M Keegan
+                        </div>
+                        <div class="tp-caption s-subtitle-v2 customin stt tp-resizeme" data-x="center" data-y="230" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:1;skewX:1;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 50%;" data-speed="1000" data-start="2600" data-easing="Power4.easeOut" data-splitin="words" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endeasing="Power4.easeIn" data-endspeed="600" style="z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;">A Boston-based Executive Coaching firm
+                        </div>
+                    </li>
+                    <!-- TIMER -->
+                    <div class="tp-bannertimer tp-bottom"></div>
+                </ul>
+            </div>
+        </div>
+        <!-- /SLIDESHOW -->
+
+        <!-- ABOUT US -->
+        <span class="breakPoint" id="s2"></span>
+        <div class="bg-dark section-lg p-no-bottom no-overflow">
+            <div class="container">
+                <h2 class="lg-title">Our Focus:</h2>
+                <div style="margin-bottom:25px;" class="row">
+                    <div class="col-md-4">
+			<ul>
+                        <h2 class="text-primary">One-on-one</h2>
+                        <h4 class="text-primary">Leadership and Management Development</h4>
+			  <li>
+                          <p class="text-block">What is my personal vision of leadership? How will I inspire others and achieve outstanding results for the business?</p>
+			  </li>
+			  <li>
+                        <p class="text-block">Executive Coaching</p>
+			</li>
+			  <li>
+                        <p class="text-block">360 Degree Feedback</p>
+			</li>
+			  <li>
+                        <p class="text-block">Management Development</p>
+			</li>
+			</ul>
+                    </div>
+                    <div class="col-md-4">
+			<ul>
+                        <h2 class="text-primary">Team-wide</h2>
+                        <h4 class="text-primary">Team Development</h4>
+			  <li>
+                          <p class="text-block">How can we bridge the talent and knowledge of our individual performers for well informed decision making and high performance?</p>
+			  </li>
+			  <li>
+                        <p class="text-block">Team Leadership</p>
+			</li>
+			  <li>
+                        <p class="text-block">Team Development </p>
+			</li>
+			  <li>
+                        <p class="text-block">Teams in Transition</p>
+			</li>
+			</ul>
+                    </div>
+                    <div class="col-sm-4">
+			<ul>
+                        <h2 class="text-primary">Division-wide</h2>
+                        <h4 class="text-primary">Change Management</h4>
+			  <li>
+                           <p class="text-block">How can we reach every level of our organization to create a positive disciplined culture of excellence?</p>
+			  </li>
+			  <li>
+                           <p class="text-block">Leadership Transition</p>
+			  </li>
+			  <li>
+                           <p class="text-block">Mergers and Acquisitions</p>
+			  </li>
+			  <li>
+                           <p class="text-block">Culture Improvement</p>
+			  </li>
+			  <li>
+                          <p class="text-block">Corporate Growth and Downsizing</p>
+			</li>
+		      </ul>
+                    </div>
+              </div>
+        </div>
+        <!-- /ABOUT US -->
+
+        <!-- BACKGROUND IMAGE -->
+        <div class="bg-img">
+            <div class="bg-filter">
+                <img src="assets/img/full-width/a/a-1920w.jpg" srcset="
+                         assets/img/full-width/a/a-992w.jpg 992w,
+                         assets/img/full-width/a/a-1920w.jpg 1920w,
+                         assets/img/full-width/a/a-2880w.jpg 2880w" alt="" data-stellar-ratio="1.5">
+            </div>
+        </div>
+        <!--/BACKGROUND IMAGE -->
+
+        <!-- WORK SECTION -->
+        <span class="breakPoint" id="sNews"></span>
+        <div class="bg-dark">
+            <div class="section-xlg container">
+                <h2 class="lg-title">Latest Work</h2>
+                <p class="lg-subtitle text-center">Some of our successful work.</p>
+                <div class="space-lg"></div>
+                <div class="md-overlay"></div>
+                <div class="timeline" id="newsFeed">
+                    <div class="label-month">November 2015</div>
+                    <div class="row box-feed">
+                        <div class="col-sm-6">
+                            <div class="box-post left">
+                                <div class="space-md"></div>
+                                <h3>Google Inc. CEO talent aqcuisition</h3>
+                                <p class="text-block">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam posuere lacus quis dolor. Integer imperdiet lectus quis justo. Ut enim ad minima veniam.</p>
+                                <button data-modal="modal-n1" class="btn btn-link md-trigger">Read more</button>
+                            </div>
+                            <!-- Modal Window for Item 1 -->
+                            <div class="md-modal md-effect-2" id="modal-n1">
+                                <div class="md-content">
+                                    <div class="icon-close md-close"></div>
+                                    <div class="container">
+                                        <div class="md-body">
+                                            <h3 class="big-title text-uppercase m-no-bottom">Dunkin' Donuts New Product R&D Team, Istambul</h3>
+                                            <div class="space-sm"></div>
+                                            <p class="text-block-v1 m-no-bottom">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Et harum quidem rerum facilis est et expedita distinctio. Curabitur bibendum justo non orci. Praesent in mauris eu tortor porttitor accumsan. Duis risus. Morbi scelerisque luctus velit. Donec iaculis gravida nulla. Nullam faucibus mi quis velit. Duis viverra diam non justo. Sed vel lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. Quisque tincidunt scelerisque libero.</p>
+                                            <div class="space"></div>
+                                            <img class="img-responsive lazy center-block" src="assets/img/800px/a_800px.jpg" alt="...">
+                                            <div class="space"></div>
+                                            <p class="text-block-v1 m-no-bottom">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Et harum quidem rerum facilis est et expedita distinctio. Curabitur bibendum justo non orci. Praesent in mauris eu tortor porttitor accumsan. Duis risus. Morbi scelerisque luctus velit. Donec iaculis gravida nulla. Nullam faucibus mi quis velit. Duis viverra diam non justo. Sed vel lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. Quisque tincidunt scelerisque libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Nullam justo enim, consectetuer nec, ullamcorper ac, vestibulum in, elit. Duis pulvinar.</p>
+                                            <div class="space-sm"></div>
+                                            <button class="btn btn-primary md-close">Back</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="box-post right">
+                                <div class="space-md"></div>
+                                <h3>Dunkin' Donuts Coached new R&D Team, Istambul</h3>
+                                <p class="text-block">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam posuere lacus quis dolor. Integer imperdiet lectus quis justo. Ut enim ad minima veniam.</p>
+                                <button data-modal="modal-n2" class="btn btn-link md-trigger">Read more
+                                </button>
+                            </div>
+                            <!-- Modal Window for Item 2 -->
+                            <div class="md-modal md-effect-2" id="modal-n2">
+                                <div class="md-content">
+                                    <div class="icon-close md-close"></div>
+                                    <div class="container">
+                                        <div class="md-body">
+                                            <h3 class="big-title text-uppercase m-no-bottom">Top 10 tools for writing blog</h3>
+                                            <div class="space-sm"></div>
+                                            <p class="text-block-v1 m-no-bottom">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Et harum quidem rerum facilis est et expedita distinctio. Curabitur bibendum justo non orci. Praesent in mauris eu tortor porttitor accumsan. Duis risus. Morbi scelerisque luctus velit. Donec iaculis gravida nulla. Nullam faucibus mi quis velit. Duis viverra diam non justo. Sed vel lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. Quisque tincidunt scelerisque libero.</p>
+                                            <div class="space"></div>
+                                            <img class="img-responsive lazy center-block" src="assets/img/800px/b_800px.jpg" alt="...">
+                                            <div class="space"></div>
+                                            <p class="text-block-v1 m-no-bottom">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Et harum quidem rerum facilis est et expedita distinctio. Curabitur bibendum justo non orci. Praesent in mauris eu tortor porttitor accumsan. Duis risus. Morbi scelerisque luctus velit. Donec iaculis gravida nulla. Nullam faucibus mi quis velit. Duis viverra diam non justo. Sed vel lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. Quisque tincidunt scelerisque libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Nullam justo enim, consectetuer nec, ullamcorper ac, vestibulum in, elit. Duis pulvinar.</p>
+                                            <div class="space-sm"></div>
+                                            <button class="btn btn-primary md-close">Back</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row box-feed">
+                        <div class="col-sm-6">
+                            <div class="box-post left">
+                                <h3>Whitehead Genome Institute, MIT</h3>
+                                <p class="text-block">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam posuere lacus quis dolor. Integer imperdiet lectus quis justo. Ut enim ad minima veniam.</p>
+                                <button data-modal="modal-n3" class="btn btn-link md-trigger">Read more</button>
+                            </div>
+                            <!-- Modal Window for Item 3 -->
+                            <div class="md-modal md-effect-2" id="modal-n3">
+                                <div class="md-content">
+                                    <div class="icon-close md-close"></div>
+                                    <div class="container">
+                                        <div class="md-body">
+                                            <h3 class="big-title text-uppercase m-no-bottom">Top 10 tools for writing blog</h3>
+                                            <div class="space-sm"></div>
+                                            <p class="text-block-v1 m-no-bottom">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Et harum quidem rerum facilis est et expedita distinctio. Curabitur bibendum justo non orci. Praesent in mauris eu tortor porttitor accumsan. Duis risus. Morbi scelerisque luctus velit. Donec iaculis gravida nulla. Nullam faucibus mi quis velit. Duis viverra diam non justo. Sed vel lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. Quisque tincidunt scelerisque libero.</p>
+                                            <div class="space"></div>
+                                            <img class="img-responsive lazy center-block" src="assets/img/800px/a_800px.jpg" alt="...">
+                                            <div class="space"></div>
+                                            <p class="text-block-v1 m-no-bottom">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Et harum quidem rerum facilis est et expedita distinctio. Curabitur bibendum justo non orci. Praesent in mauris eu tortor porttitor accumsan. Duis risus. Morbi scelerisque luctus velit. Donec iaculis gravida nulla. Nullam faucibus mi quis velit. Duis viverra diam non justo. Sed vel lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. Quisque tincidunt scelerisque libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Nullam justo enim, consectetuer nec, ullamcorper ac, vestibulum in, elit. Duis pulvinar.</p>
+                                            <div class="space-sm"></div>
+                                            <button class="btn btn-primary md-close">Back</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="box-post right">
+                                <h3>Statestreet Bank New CEO executive coaching</h3>
+                                <p class="text-block">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam posuere lacus quis dolor. Integer imperdiet lectus quis justo. Ut enim ad minima veniam.</p>
+                                <button data-modal="modal-n4" class="btn btn-link md-trigger">Read more
+                                </button>
+                            </div>
+                            <!-- Modal Window for Item 4 -->
+                            <div class="md-modal md-effect-2" id="modal-n4">
+                                <div class="md-content">
+                                    <div class="icon-close md-close"></div>
+                                    <div class="container">
+                                        <div class="md-body">
+                                            <h3 class="big-title text-uppercase m-no-bottom">Top 10 tools for writing blog</h3>
+                                            <div class="space-sm"></div>
+                                            <p class="text-block-v1 m-no-bottom">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Et harum quidem rerum facilis est et expedita distinctio. Curabitur bibendum justo non orci. Praesent in mauris eu tortor porttitor accumsan. Duis risus. Morbi scelerisque luctus velit. Donec iaculis gravida nulla. Nullam faucibus mi quis velit. Duis viverra diam non justo. Sed vel lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. Quisque tincidunt scelerisque libero.</p>
+                                            <div class="space"></div>
+                                            <div class="space"></div>
+                                            <p class="text-block-v1 m-no-bottom">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Et harum quidem rerum facilis est et expedita distinctio. Curabitur bibendum justo non orci. Praesent in mauris eu tortor porttitor accumsan. Duis risus. Morbi scelerisque luctus velit. Donec iaculis gravida nulla. Nullam faucibus mi quis velit. Duis viverra diam non justo. Sed vel lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. Quisque tincidunt scelerisque libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Nullam justo enim, consectetuer nec, ullamcorper ac, vestibulum in, elit. Duis pulvinar.</p>
+                                            <div class="space-sm"></div>
+                                            <button class="btn btn-primary md-close">Back</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="label-month">August 2015</div>
+                    <div class="row box-feed">
+                        <div class="col-sm-6">
+                            <div class="box-post left">
+                                <h3>Howard Stern Productions, Toto Toilet partnership</h3>
+                                <p class="text-block">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam posuere lacus quis dolor. Integer imperdiet lectus quis justo. Ut enim ad minima veniam.</p>
+                                <button data-modal="modal-n5" class="btn btn-link md-trigger">Read more</button>
+                            </div>
+                            <!-- Modal Window for Item 5 -->
+                            <div class="md-modal md-effect-2" id="modal-n5">
+                                <div class="md-content">
+                                    <div class="icon-close md-close"></div>
+                                    <div class="container">
+                                        <div class="md-body">
+                                            <h3 class="big-title text-uppercase m-no-bottom">Top 10 tools for writing blog</h3>
+                                            <div class="space-sm"></div>
+                                            <p class="text-block-v1 m-no-bottom">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Et harum quidem rerum facilis est et expedita distinctio. Curabitur bibendum justo non orci. Praesent in mauris eu tortor porttitor accumsan. Duis risus. Morbi scelerisque luctus velit. Donec iaculis gravida nulla. Nullam faucibus mi quis velit. Duis viverra diam non justo. Sed vel lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. Quisque tincidunt scelerisque libero.</p>
+                                            <div class="space"></div>
+                                            <div class="space"></div>
+                                            <p class="text-block-v1 m-no-bottom">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Et harum quidem rerum facilis est et expedita distinctio. Curabitur bibendum justo non orci. Praesent in mauris eu tortor porttitor accumsan. Duis risus. Morbi scelerisque luctus velit. Donec iaculis gravida nulla. Nullam faucibus mi quis velit. Duis viverra diam non justo. Sed vel lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. Quisque tincidunt scelerisque libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Nullam justo enim, consectetuer nec, ullamcorper ac, vestibulum in, elit. Duis pulvinar.</p>
+                                            <div class="space-sm"></div>
+                                            <button class="btn btn-primary md-close">Back</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="box-post right">
+                                <div class="space-md"></div>
+                                <h3>Caldor Department Store, Yemen</h3>
+                                <p class="text-block">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam posuere lacus quis dolor. Integer imperdiet lectus quis justo. Ut enim ad minima veniam.</p>
+                                <button data-modal="modal-n6" class="btn btn-link md-trigger">Read more</button>
+                            </div>
+                            <!-- Modal Window for Item 6 -->
+                            <div class="md-modal md-effect-2" id="modal-n6">
+                                <div class="md-content">
+                                    <div class="icon-close md-close"></div>
+                                    <div class="container">
+                                        <div class="md-body">
+                                            <h3 class="big-title text-uppercase m-no-bottom">Top 10 tools for writing blog</h3>
+                                            <div class="space-sm"></div>
+                                            <p class="text-block-v1 m-no-bottom">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Et harum quidem rerum facilis est et expedita distinctio. Curabitur bibendum justo non orci. Praesent in mauris eu tortor porttitor accumsan. Duis risus. Morbi scelerisque luctus velit. Donec iaculis gravida nulla. Nullam faucibus mi quis velit. Duis viverra diam non justo. Sed vel lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. Quisque tincidunt scelerisque libero.</p>
+                                            <div class="space"></div>
+                                            <div class="space"></div>
+                                            <p class="text-block-v1 m-no-bottom">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Et harum quidem rerum facilis est et expedita distinctio. Curabitur bibendum justo non orci. Praesent in mauris eu tortor porttitor accumsan. Duis risus. Morbi scelerisque luctus velit. Donec iaculis gravida nulla. Nullam faucibus mi quis velit. Duis viverra diam non justo. Sed vel lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. Quisque tincidunt scelerisque libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Nullam justo enim, consectetuer nec, ullamcorper ac, vestibulum in, elit. Duis pulvinar.</p>
+                                            <div class="space-sm"></div>
+                                            <button class="btn btn-primary md-close">Back</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="label-month" id="removeAfterLoading">
+                        <div id="loadNews">View more
+                            <span class="i-plus">+</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /WORK SECTION -->
+
+        <!-- TWIITER -->
+        <div class="bg-dark">
+            <div class="container section">
+                <div class="row">
+                    <div class="col-md-12">
+                                <blockquote class="primary">
+                                    <p>Donec ipsum massa, ullamcorper in, auctor et, scelerisque sed, est. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+                                    </p>
+                                    <footer>Matthew Young <a href="#"> October 14, 2014</a>
+                                    </footer>
+                                </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /TWIITER -->
+
+        <!-- CONTACT SECTION -->
+        <span class="breakPoint" id="s5"></span>
+        <div class="bg-dark section-xlg">
+            <div class="container">
+                <h2 class="lg-title">Contact us</h2>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6">
+                        <ul class="list-unstyled info-bar">
+                            <li>
+                                <h3>Additional info</h3>
+                                <p class="text-block">If you have any questiong about our products or something else, please email us or call us. We"ll get in touch with you as soon as possible.</p>
+                            </li>
+                            <li>
+                                <h3>Our Location</h3>
+                                <p class="text-block">123 Main Street, MA 02138</p>
+                            </li>
+                            <li>
+                                <h3>Email Us</h3>
+                                <p class="text-block">
+                                    <a target="_blank" href="mailto:pat@patriciamkeegan.com">pat@patriciamkeegan.com</a>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="space visible-xs"></div>
+                    <div class="col-lg-offset-1 col-lg-7 col-sm-6">
+                        <!--FORM STRUCTURE STARTS HERE-->
+                        <div id="form">
+                            <form id="easy" name="contact" method="post" action="assets/php/EasyForm/submit.php" onsubmit="return checkform()">
+                                <!--ERROR/SUCCESS MESSAGE-->
+                                <div id="error"></div>
+                                <div id="success">Thank you, your email has been sent.</div>
+                                <!--NAME INPUT-->
+                                <div class="form-group icon">
+                                    <div class="control input">
+                                        <input type="text" name="name" id="name" class="form-control" placeholder="Full name">
+                                        <i class="fa fa-user"></i>
+                                    </div>
+                                </div>
+                                <!--EMAIL INPUT-->
+                                <div class="form-group icon">
+                                    <div class="control input last">
+                                        <input type="text" name="email" class="form-control" id="email" placeholder="Your email">
+                                        <i class="fa fa-envelope"></i>
+                                    </div>
+                                </div>
+                                <!--MESSAGE INPUT-->
+                                <div class="form-group icon">
+                                    <div class="control input textarea">
+                                        <textarea name="message" id="message" class="form-control" rows="9" placeholder="Your message"></textarea>
+                                        <i class="fa fa-comment"></i>
+                                    </div>
+                                </div>
+                                <!--VERIFICATION AREA-->
+                                <div class="row">
+                                    <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 p-no-right text-center">
+                                        <img id="vimage" src="assets/php/EasyForm/captcha.png" alt="Verification code">
+                                    </div>
+                                    <div class="col-lg-4 col-md-5 col-sm-6 col-xs-8 p-no-left">
+                                        <div class="form-group icon">
+                                            <div class="control">
+                                                <a href="#" onclick="document.getElementById(&apos;vimage&apos;).src = &apos;assets/php/EasyForm/image.php?&apos; + Math.random(); return false">
+                                                    <i class="fa fa-refresh"></i>
+                                                </a>
+                                                <input type="text" name="verify" id="verify" class="form-control" placeholder="Enter the key" title="This confirms you are a human user and not a spam-bot.">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group icon">
+                                    <button type="submit" class="btn btn-primary btn-xlg" id="send_message">
+                                        <i class="fa fa-paper-plane-o"></i>Send message</button>
+                                </div>
+                            </form>
+                            <div class="clearfix"></div>
+                        </div>
+                        <!--FORM STRUCTURE ENDS HERE-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /CONTACT SECTION -->
+
+        <!-- GOOGLE MAPS -->
+        <div id="map">
+yRVjPa0THWSlD37o232pHShwUDk=
+</div>
+        <!-- /GOOGLE MAPS -->
+
+        <!-- FOOTER -->
+        <div class="footer">
+            <div class="container">
+                <div class="space-sm"></div>
+                <ul class="dark-icons icons-list center-block">
+                    <li>
+                        <a href="#" title="Follow us">
+                            <i class="fa fa-google-plus"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Follow us">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Follow us">
+                            <i class="fa fa-skype"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Follow us">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Follow us">
+                            <i class="fa fa-youtube-play"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Follow us">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </li>
+                </ul>
+                <div class="space-md"></div>
+                <div>
+                    &copy; 2015 Patricia M Keegan. All rights reserved.
+                </div>
+            </div>
+        </div>
+        <!-- /FOOTER -->
+
+        <!--=== BACK TO TOP ===-->
+        <a href="#" class="back-to-top">
+            <i class="fa fa-angle-up"></i>
+        </a>
+        <!--===/End BACK TO TOP ===-->
+    </div>
+
+    <!--===============================
+                /MAIN WRAP 
+     ===============================-->
+
+    <!-- SCRIPTS -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+    <script src="assets/js/plugins/modernizr-latest.js"></script>
+    <script src="assets/js/plugins/picturefill.js"></script>
+    <script src="assets/js/plugins/smoothScroll.js"></script>
+    <script src="assets/js/plugins/wow.js"></script>
+    <script src="assets/js/plugins/classie.js"></script>
+    <script src="assets/js/plugins/jquery.nav.js"></script>
+    <script src="assets/js/plugins/jquery.stellar.js"></script>
+    <script src="assets/js/plugins/jquery.themepunch.tools.js"></script>
+    <script src="assets/js/plugins/jquery.themepunch.revolution.js"></script>
+    <script src="assets/js/plugins/owl.carousel.js"></script>
+    <script src="assets/js/plugins/jquery.knob.js"></script>
+    <script src="assets/js/plugins/form.js"></script>
+    <script src="assets/js/plugins/dialogFx.js"></script>
+    <script src="assets/js/plugins/jquery.cubeportfolio.js"></script>
+    <script src="assets/js/plugins/awesome-work.js"></script>
+    <script src="assets/js/plugins/jquery.modalEffects.js"></script>
+    <script src="assets/js/plugins/cssParser.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCzNVgvcOv9arF65x_3tjSSnajIoz_nso"></script>
+    <script src="assets/js/plugins/snazzy-maps.js"></script>
+
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/style-switcher.js"></script>
+    <script>
+    $(function() {
+        //Plugins Init
+        Plugins.init();
+        Plugins.animations();
+        Plugins.wow();
+        Plugins.parallaxStellar();
+        Plugins.revolutionSlider();
+        Plugins.dialogEffects();
+        Plugins.onePageNav();
+        Plugins.owlCarousel();
+        Plugins.knobs(".lbKnob", "#26C6DA");
+        Plugins.modalEffects();
+
+        //Custom JS Init
+        Custom.init();
+        Custom.captchaFix();
+        Custom.loadMoreNews();
+        Custom.mobileMenuAnimation();
+    });
+    </script>
+
+    <!--[if lt IE 9]>
+          <script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+    <!-- /SCRIPTS -->
+</body>
+
+</html>

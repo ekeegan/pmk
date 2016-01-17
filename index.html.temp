@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Patricia M Keegan</title>
+
+    <!-- Meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Fresh Bootstrap theme for your next projects, Influence is fully responsive, well documented, built with premium plugins.">
+
+    <!-- 'theme-color' will set background color in Chrome browser on Android 5.0+ -->
+    <meta name="theme-color" content="#263238">
+
+    <!-- Favicon - this tools will help you generate favicons for all platform - http://realfavicongenerator.net/ -->
+    <link rel="shortcut icon" href="assets/img/favicons/favicon.png">
+
+    <!-- MAIN STYLES -->
+    <!-- If you want change theme, you need to remove old one and new one, how for Bootstrap, so for custom theme -->
+    <link href="assets/css/bootstrap/themes/cyan-b.css" rel="stylesheet" id="bootstrapTheme">
+    <!--<link href="assets/css/main-theme/themes/red-b.css" rel="stylesheet" id="mainTheme">-->
+    <link href="assets/css/main-theme/themes/amber-m.css" rel="stylesheet" id="mainTheme">
+    <!--<link href="assets/css/main-theme/themes/red-m.css" rel="stylesheet" id="mainTheme">-->
+
+    <!-- FONTS -->
+    <link href="http://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+
+    <!-- PLUGINS -->
+    <link rel="stylesheet" href="assets/css/plugins/animations.css">
+    <link rel="stylesheet" href="assets/css/plugins/animate.css">
+    <link rel="stylesheet" href="assets/css/plugins/slider-revolution.css">
+    <link rel="stylesheet" href="assets/css/plugins/cubeportfolio.css">
+    <link rel="stylesheet" href="assets/css/plugins/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/plugins/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/plugins/devicons.css">
+</head>
+
+<body>
+
+    <!-- PRELOADER -->
+    <div class="preloader-wrap clearfix" id="preloader">
+        <div class="hv-center">
+            <div class="spinner"></div>
+        </div>
+    </div>
+    <!-- /PRELOADER -->
+
+    <!--===============================
+                MAIN WRAP  
+     ===============================-->
+    <div id="page-wrap">
+
+        <!-- NAVIGATION -->
+        <div class="navbar navbar-trn navbar-fixed-top navbar-height" role="navigation" id="navbarSettings">
+            <div class="container">
+                <div class="navbar-header">
+                    <!-- Mobile Navigation -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!--/END Mobile Navigation -->
+                    <!-- Logo/Name -->
+                    <!--<a class="scroll navbar-brand scroll" href="#sTop">Patricia M Keegan Ed.D</a>-->
+                    <a class="scroll navbar-brand scroll" href="#sTop">Patricia M Keegan <i style="font-family:'Bookman';text-transform:none;color:#ffc107">Ed.D</i></a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right" id="nav">
+                        <li class="dropdown active">
+                            <a href="#sTop">Home</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#s1">Services</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#s2">Approach</a>
+                        </li>
+                        <!--<li class="dropdown">
+                            <a href="#s3">Portfolio</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#s4">Prices</a>
+                        </li>-->
+                        <li class="dropdown">
+                            <a href="#s6">Bio</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#s7">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="navbarSpaceBottom"></div>
+        <!-- /NAVIGATION -->
+
+        <!-- SLIDESHOW -->
+        <span class="breakPoint" id="sTop"></span>
+        <div class="tp-banner-container">
+            <div class="tp-banner">
+                <ul>
+                    <!-- SLIDE 1 -->
+                    <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="assets/img/boston.jpg" data-saveperformance="off" data-title="Welcome to Influence">
+                        <!-- MAIN IMAGE -->
+                        <img src="assets/img/boston.jpg" alt="Welcome to Influence" data-bgposition="center bottom" data-bgfit="cover" data-bgrepeat="no-repeat">
+                        <!-- LAYERS -->
+                        <div class="tp-caption s-title-v2 customin stt  tp-resizeme" data-x="center" data-y="150" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="1000" data-start="1100" data-easing="Power4.easeOut" data-splitin="chars" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endeasing="Power4.easeIn" data-endspeed="500" style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;">Patricia M Keegan
+                        </div>
+                        <div class="tp-caption s-subtitle-v2 customin stt tp-resizeme" data-x="center" data-y="230" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:1;skewX:1;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 50%;" data-speed="1000" data-start="2600" data-easing="Power4.easeOut" data-splitin="words" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endeasing="Power4.easeIn" data-endspeed="600" style="z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;">Executive Coaching | TEAM DEVELOPMENT
+                        </div>
+                    </li>
+                    <!-- TIMER -->
+                    <div class="tp-bannertimer tp-bottom"></div>
+                </ul>
+            </div>
+        </div>
+        <!-- /SLIDESHOW -->
+<style>
+.med-title {
+    text-align: center;
+    position: relative;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+    text-transform: uppercase;
+    /*color: #00bcd4; */
+    color: #ffc107; 
+    font-size: 30px;
+    margin-top: 0;
+    line-height: 50px;
+}
+.tag {
+    text-align: center;
+    position: relative;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+    text-transform: uppercase;
+    color: #F3F1D6; 
+    font-size: 18px;
+    margin-top: 0;
+    line-height: 30px;
+}
+
+.centr {
+text-align: center;
+}
+
+.bg-blue {
+  background: #24353b !important;
+}
+.bg-blue .lg-title {
+  color: #eceff1;
+}
+
+.bg-rust {
+  background: #3b2a24 !important;
+}
+.bg-rust .lg-title {
+  color: #eceff1;
+}
+
+.profile-pmk {
+  background-image: url("assets/img/faces/5.jpg");
+}
+
+.panel-alt {
+    margin-bottom: 0px;
+    background-color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+</style>
+
+        <!-- ABOUT US 1-->
+        <span class="breakPoint" id="s1"></span>
+        <div class="bg-dark section-xlg p-no-bottom no-overflow">
+            <div class="container">
+                <h4 class="tag">Accelerating Professional Development / Improving Business Performance</h4>
+                <h2 class="med-title">&diams; &nbsp;Services&nbsp;&nbsp;&diams;</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                      <h3 class="text-primary">Leadership Development</h3>
+                       <h4 class="text-primary"></h4>
+                          <p class="text-block">What is my personal vision of leadership? How will I inspire others and achieve outstanding results for the business?</p>
+			  <ul style="list-style:•;color:#ffc107;" class="text-block">
+			  <li>
+                        <p class="text-block">Executive Coaching</p>
+			</li>
+			  <li>
+                        <p class="text-block">360 Degree Feedback</p>
+			</li>
+			  <li>
+                        <p class="text-block">Management Development</p>
+			</li>
+			<ul>
+                    </div>
+                      <div class="col-md-4">
+                        <h3 class="text-primary">Team Development</h3>
+                       <h4 class="text-primary"></h4>
+                          <p class="text-block">How can we bridge the talent and knowledge of our individual performers for well informed decision making and high performance?</p>
+			  <ul style="list-style:•;color:#ffc107;" class="text-block">
+			  <li>
+                        <p class="text-block">Team Leadership</p>
+			</li>
+			  <li>
+                        <p class="text-block">Team Development </p>
+			</li>
+			  <li>
+                        <p class="text-block">Teams in Transition</p>
+			</li>
+			 </ul>
+                    </div>
+                      <div class="col-md-4">
+                        <h3 class="text-primary">Organizational Development</h3>
+                       <h4 class="text-primary"></h4>
+                           <p class="text-block">How can we reach every level of our organization to create a positive disciplined culture of excellence?</p>
+			  <ul style="list-style:•;color:#ffc107;" class="text-block">
+			  <li>
+                           <p class="text-block">Leadership Transition</p>
+			  </li>
+			  <li>
+                           <p class="text-block">Mergers and Acquisitions</p>
+			  </li>
+			  <li>
+                           <p class="text-block">Culture Improvement</p>
+			  </li>
+			  <li>
+                          <p class="text-block">Corporate Growth and Downsizing</p>
+			</li>
+			</ul>
+                      </div>
+                    </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2 class="text-primary"><a style="font-size:16px;font-style:italic;color:#ffc107;" href="#s3">read more</a></h2>
+                    </div>
+                    <div class="col-md-4">
+                        <h2 class="text-primary"><a style="font-size:16px;font-style:italic;color:#ffc107;" href="#s4">read more</a></h2>
+                    </div>
+                    <div class="col-md-4">
+                        <h2 class="text-primary"><a style="font-size:16px;font-style:italic;color:#ffc107;" href="#s5">read more</a></h2>
+                    </div>
+                </div>
+                <div class="space-lg"></div>
+            </div>
+        </div>
+        <!-- /ABOUT US -->
+
+        <!-- ABOUT US 2-->
+        <span class="breakPoint" id="s2"></span>
+        <div class="bg-dark section-xlg p-no-bottom no-overflow">
+            <div class="container">
+                <h2 class="med-title">&diams; &nbsp;Approach&nbsp;&nbsp;&diams;</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2 class="text-primary"></h2>
+			<img style="margin-top:30px;" src="assets/img/flow.png">
+                    </div>
+                    <div class="col-md-8">
+                        <!--<h2 class="text-primary">Our Approach</h2>-->
+                          	<p class="text-block">Data is gathered to insure all project designs reflect a keen understanding of the unique challenges that face individuals, teams, and organizations.</p>
+				<p class="text-block">All work is based on enduring principles and researched methodologies that are grounded in human motivation theory, management science, organizational systems theory, and ethical guidelines.</p>
+				<br>
+				<p class="text-block">Designs are created in collaboration with leaders and managers to produce and implement programs that are relevant and sensitive to the client's culture.</p>
+				<br>
+				<p class="text-block">Clear goals, deliverables, and measurements of success are established early in the engagement that steadily guide our clients toward positive results.</p>
+                        </div>
+                    </div>
+                <div class="space-lg"></div>
+            </div>
+        </div>
+        <!-- /ABOUT US -->
+
+        <!-- ABOUT US 3-->
+        <span class="breakPoint" id="s3"></span>
+        <div class="bg-dark section-xlg p-no-bottom no-overflow">
+            <div class="container">
+                <!--<h2 class="lg-title">Service Details</h2>-->
+                <h2 class="med-title">&diams; &nbsp;Service Details&nbsp;&nbsp;&diams;</h2>
+                <div class="row">
+                    <div class="col-md-8">
+                        <h3 class="text-primary">Leadership and Management Development</h3>
+		    <p class="text-block">Strong leadership and management are essential elements of organizational success.  Assistance is provided to leaders and managers to leverage opportunities and manage the challenges and responsibilities of leading their organizations.
+			<br><br>
+Researched methods in professional development and skill building are thoughtfully delivered.  The process includes: assessment, goal setting, executive coaching, measurement of progress and the establishment of strategies for continued learning.
+			<br><br>
+Areas of focus:
+			  <ul class="text-block">
+			<li>	Leadership vision and goals
+			<li>	Developing effective business relationships
+			<li>	Strategy development
+			<li>	Leading and managing change
+			<li>	Leveraging Performance Reviews
+			<li>	Delegating
+			<li>	Succession planning
+			</ul></p>
+                        </div>
+                    <div class="col-md-4">
+                        <h2 class="text-primary"></h2>
+			<img style="margin-top:30px;" src="assets/img/flow.png">
+                    </div>
+                    </div>
+                <div class="space-lg"></div>
+            </div>
+        </div>
+        <!-- /ABOUT US -->
+
+        <!-- ABOUT US 4-->
+        <span class="breakPoint" id="s4"></span>
+        <div class="bg-dark section-xlg p-no-bottom no-overflow">
+            <div class="container">
+                <!--<h2 class="lg-title">Team Effectivieness</h2>-->
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2 class="text-primary"></h2>
+			<img style="margin-top:30px;" src="assets/img/flow.png">
+                    </div>
+                    <div class="col-md-8">
+                        <h3 class="text-primary">Team Development</h3>
+                    <p class="text-block">The ability to quickly form and reform productive teams is a critical skill for businesses today.  The groundwork necessary to form productive teams is often overlooked.
+<br><br>
+Assistance is provided to newly formed teams, existing teams and teams in transition due to mergers and other organizational changes.  Programs are designed in collaboration with team leaders to insure that the experience is relevant, and helps the team produce clear tools and deliverables to take back to the work place.
+<br><br>
+Designs often include:
+<ul class="text-block">
+<li>	Development of a team's vision and goals
+<li>	Clarification of team member roles and responsibilities
+<li>	Exploration of the diverse work styles of
+	each team member
+<li>	Development of team communication and
+planning skills
+<li>	Development of team conflict management
+	and problem solving skills
+<li>	Improvement of working relationships among
+team members
+
+</ul>
+<br><br>		</p>
+                        </div>
+                    </div>
+                <div class="space-lg"></div>
+            </div>
+        </div>
+        <!-- /ABOUT US -->
+
+        <!-- ABOUT US 5-->
+        <span class="breakPoint" id="s5"></span>
+        <div class="bg-dark section-xlg p-no-bottom no-overflow">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h3 class="text-primary">Organization</h3>
+<p class="text-block">Common scenarios in business today include: reorganizations, leadership transitions and adjustments due to corporate growth and downsizing.  Change might also be initiated by leaders to improve the organizations performance or culture.  Regardless of how changes are introduced, organizations must respond thoughtfully and quickly.
+<br><br>
+Work is done with leaders, managers, and supervisors to successfully manage the human aspects of change initiatives.  Clients are assisted in planning, communicating and facilitating change efforts that minimize resistance and encourage support and collaboration.
+<br><br>
+These services often include:
+<ul class="text-block">
+<li>		Education regarding change and change management
+<li>	Leading, planning and goal setting
+<li>	Communication strategies
+<li>	Reducing resistance and gaining support from key players at all levels
+<li>	Roles and responsibilities of key players
+<li>	Methods to avoid loss of productivity during change
+<li>	Methods to lower employee stress during change
+<li>	Methods to acknowledge and celebrate achievements
+
+
+</ul></p>
+                        </div>
+                    <div class="col-md-4">
+                        <h2 class="text-primary"></h2>
+			<img style="margin-top:30px;" src="assets/img/flow.png">
+                    </div>
+                    </div>
+                <div class="space-lg"></div>
+            </div>
+        </div>
+        <!-- /ABOUT US -->
+<style>
+.grayscale {
+  border: 1px solid black;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  /* For Webkit browsers */
+  filter: gray;
+  /* For IE 6 - 9 */
+  -webkit-transition: all .6s ease;
+  /* Transition for Webkit browsers */
+}
+
+.grayscale:hover {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  filter: none;
+}
+</style>
+
+        <!-- BIO-->
+        <span class="breakPoint" id="s6"></span>
+        <div class="bg-dark section-xlg p-no-bottom no-overflow">
+             <div class="container">
+                <h2 class="med-title">&diams; &nbsp;Bio&nbsp;&nbsp;&diams;</h2>
+                    <div class="row">
+                      <div class="col-md-4">
+                        <div class="profile-circle">
+                          <div class="hover-content">
+                            <div class="grayscale profile-pmk profile lg-size"></div>
+                            <div class="content-center">
+                         </div>
+                      </div>
+                        <h3 style="color:#ffc107;">Patricia Keegan Ed.D</h3>
+                        <hr>
+                        <p style="color:#ffc107;" class="text-block">Owner / Executive Coach</p>
+                   </div>
+                 </div>
+                    <div class="col-md-8">
+                        <h3 class="text-primary">Patricia M. Keegan Ed.D</h3>
+                    <p class="text-block">Pat is a management consultant and executive coach with more than 20 years of experience in the areas of human development and organizational change.  Her work most typically focuses on improving leadership, management, communication and performance.  Pat brings her expertise to both private and public sectors from large Fortune 500 organizations to non-profits and small entrepreneurial start-ups.
+Client industries include: financial services, architectural and design services, transportation, high-tech, biotech, medicine and higher education.  In her practice, Pat enjoys consulting and coaching with executives at all levels of the organization. She is also a licensed clinical psychologist and brings to each project a keen understanding of interpersonal styles, leadership styles, human motivation and organizational systems.
+</p>
+<br>                
+<p class="text-block">Before becoming a senior consultant at ClearRock, Inc., Pat co-founded and built the management consulting partnership of Keegan and Kanter Associates a firm focused on executive coaching, team development and organizational change.
+Prior to this, she worked as a lead coaching consultant at Murray Associates, a management-consulting firm based in Wellesley, MA.  In her earlier background, she was an Assistant Professor at Boston University and a Senior Psychologist at Brookline Psychological Services.</p>
+<br>
+<p class="text-block">Pat’s professional interest has always been to assist people and organizations in achieving thoughtful, constructive and desired change.  She grooms high achievers for the next level and works adeptly with derailed executives to help them reach their potential.  Pat is known for asking the right questions.  She has a pragmatic, results oriented approach and can quickly engage her clients in their own learning and development process.</p>
+<br>
+<p class="text-block">Pat is an active member of the Human Resource Leadership Forum, the Consulting Division of the American Psychological Association, and a past steering committee member of The Greater Boston Organization Development Network.</p>
+<br>
+<p class="text-block">Pat earned her Doctorate of Education in Human Development and her Masters of Education in Counseling Psychology from Boston University.  Her Bachelor of Science in Education is from the University of Maine.</p>
+      </div>
+      </div>
+           <div class="space-lg"></div>
+            </div>
+        </div>
+        <!-- /ABOUT US -->
+
+        <!-- BACKGROUND IMAGE -->
+        <div class="bg-img">
+            <div class="bg-filter">
+                <img src="assets/img/full-width/a/a-1920w.jpg" srcset="
+                         assets/img/full-width/a/a-992w.jpg 992w,
+                         assets/img/full-width/a/a-1920w.jpg 1920w,
+                         assets/img/full-width/a/a-2880w.jpg 2880w" alt="" data-stellar-ratio="1.5">
+            </div>
+        </div>
+        <!--/BACKGROUND IMAGE -->
+
+        <!-- TESTIMONIALS SECTION -->
+        <div class="section-xlg bg-dark">
+            <div class="container">
+                <!--<h2 class="med-title">testimonials</h2>-->
+                <center><h3 style="font-style:italic;" class="text-primary">what people say . . .</h3></center>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+                <div id="testimonialsSlider" class="owl-carousel">
+                    <div class="item">
+                        <div class="content-box">
+                            <div class="profile profile-1 xs-size"></div>
+                            <div class="body">
+                                <p>"It’s just brilliant. I will recommend the product to everyone I know!"</p>
+                                <h4>Adele Taylor
+                                    <em>Founder of Facebook</em>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="content-box">
+                            <div class="profile profile-2 xs-size"></div>
+                            <div class="body">
+                                <p>"I’m really glad these guys got that product out there. I’ve bought it and now think perhaps I should have invested!"</p>
+                                <h4>Nicole Perry
+                                    <em>CIO of Google</em>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="content-box">
+                            <div class="profile profile-3 xs-size"></div>
+                            <div class="body">
+                                <p>"What a product. Why didn’t someone think of it sooner?"</p>
+                                <h4>Ben Berry
+                                    <em>CMO of Twitter</em>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="content-box">
+                            <div class="profile profile-4 xs-size"></div>
+                            <div class="body">
+                                <p>"Get out there and buy it if you’re a customer and stock it if you’re a retailer – you’d be mad not to!"</p>
+                                <h4>Jenny Jonson
+                                    <em>CFO of Cabbage Fart.com</em>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="content-box">
+                            <div class="profile profile-1 xs-size"></div>
+                            <div class="body">
+                                <p>"It’s just brilliant. I will recommend the product to everyone I know!"</p>
+                                <h4>Adele Taylor
+                                    <em>Founder of Facebook</em>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="content-box">
+                            <div class="profile profile-2 xs-size"></div>
+                            <div class="body">
+                                <p>"I’m really glad these guys got that product out there. I’ve bought it and now think perhaps I should have invested!"</p>
+                                <h4>Nicole Perry
+                                    <em>CIO of Google</em>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="content-box">
+                            <div class="profile profile-3 xs-size"></div>
+                            <div class="body">
+                                <p>"What a product. Why didn’t someone think of it sooner?"</p>
+                                <h4>Ben Berry
+                                    <em>CMO of Twitter</em>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="content-box">
+                            <div class="profile profile-4 xs-size"></div>
+                            <div class="body">
+                                <p>"Get out there and buy it if you’re a customer and stock it if you’re a retailer – you’d be mad not to!"</p>
+                                <h4>Jenny Jonson
+                                    <em>Partner of Apple</em>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+      <h2 class="text-primary"><a style="font-size:16px;font-style:italic;color:#ffc107;" href="clients.html"><center>clients served</center></a></h2>
+            </div>
+        </div>
+        <!-- /TESTIMONIALS SECTION -->
+
+
+
+	<!-- Contact Section -->
+        <span class="breakPoint" id="s7"></span>
+                <div class="panel-alt panel-default bg-dark text-center wow ">
+                    <div class="panel-body">
+                <h2 class="med-title">&diams; &nbsp;Contact&nbsp;&nbsp;&diams;</h2>
+                        <!--<h4 style="color:#F3F1D6;" class="wow" data-wow-delay="0.25s">Feel free to contact us.</h4>-->
+                        <div class="space-sm"></div>
+                        <ul class="list-inline wow fadeIn contact-box" data-wow-delay="0.5s">
+                            <li>
+                                <a href="#" class="btn btn-primary-trn scroll">
+                                    <i class="fa fa-envelope"></i>info@patriciamkeegan.com
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn btn-primary-trn">
+                                    <i class="fa fa-phone"></i>+1 617 555 1234 
+                                </a>
+                            </li>
+                        </ul>
+        <div class="section-xlg bg-dark">
+                    </div>
+                </div>
+            </div>
+	<!-- Contact Section -->
+
+        <!-- FOOTER -->
+        <div class="footer">
+            <div class="container">
+                <div class="space-sm"></div>
+                <ul class="dark-icons icons-list center-block">
+			<li class="text-block" style="list-style:square;color:#ffc107;">•</li>
+                    <li>
+                        <a href="#" title="Follow us">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+			<li class="text-block" style="list-style:square;color:#ffc107;">•</li>
+                    <li>
+                        <a href="#" title="Follow us">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </li>
+			<li class="text-block" style="list-style:square;color:#ffc107;">•</li>
+                </ul>
+                <div class="space-md"></div>
+                <div>
+                    &copy; 2016 patriciamkeegan.com. All rights reserved.
+                </div>
+            </div>
+        </div>
+        <!-- /FOOTER -->
+
+
+        <!--=== BACK TO TOP ===-->
+        <a href="#" class="back-to-top">
+            <i class="fa fa-angle-up"></i>
+        </a>
+        <!--===/End BACK TO TOP ===-->
+    </div>
+
+    <!--===============================
+                /MAIN WRAP 
+     ===============================-->
+
+    <!-- SCRIPTS -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+    <script src="assets/js/plugins/modernizr-latest.js"></script>
+    <script src="assets/js/plugins/picturefill.js"></script>
+    <script src="assets/js/plugins/smoothScroll.js"></script>
+    <script src="assets/js/plugins/wow.js"></script>
+    <script src="assets/js/plugins/classie.js"></script>
+    <script src="assets/js/plugins/jquery.nav.js"></script>
+    <script src="assets/js/plugins/jquery.stellar.js"></script>
+    <script src="assets/js/plugins/jquery.themepunch.tools.js"></script>
+    <script src="assets/js/plugins/jquery.themepunch.revolution.js"></script>
+    <script src="assets/js/plugins/owl.carousel.js"></script>
+    <script src="assets/js/plugins/jquery.knob.js"></script>
+    <script src="assets/js/plugins/form.js"></script>
+    <script src="assets/js/plugins/dialogFx.js"></script>
+    <script src="assets/js/plugins/jquery.cubeportfolio.js"></script>
+    <script src="assets/js/plugins/awesome-work.js"></script>
+    <script src="assets/js/plugins/jquery.modalEffects.js"></script>
+    <script src="assets/js/plugins/cssParser.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script src="assets/js/plugins/snazzy-maps.js"></script>
+
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/style-switcher.js"></script>
+    <script>
+    $(function() {
+        //Plugins Init
+        Plugins.init();
+        Plugins.animations();
+        Plugins.wow();
+        Plugins.parallaxStellar();
+        Plugins.revolutionSlider();
+        Plugins.dialogEffects();
+        Plugins.onePageNav();
+        Plugins.owlCarousel();
+        Plugins.knobs(".lbKnob", "#26C6DA");
+        Plugins.modalEffects();
+
+        //Custom JS Init
+        Custom.init();
+        Custom.captchaFix();
+        Custom.loadMoreNews();
+        Custom.mobileMenuAnimation();
+    });
+    </script>
+
+    <!--[if lt IE 9]>
+          <script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+    <!-- /SCRIPTS -->
+</body>
+
+</html>
